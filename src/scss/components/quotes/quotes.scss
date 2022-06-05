@@ -1,0 +1,74 @@
+.quotes {
+  background: #EAF0FF;
+  padding: 110px 0;
+
+  &__inner {
+    position: relative;
+
+    //&:after {
+    //  position: absolute;
+    //  content: 'Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.';
+    //  width: 423px;
+    //  height: 175.37px;
+    //  left: 1228px;
+    //  top: 3778.23px;
+    //  z-index: 2;
+    //  background: #FFFFFF;
+    //  border: 1px solid #D8E3FE;
+    //  box-shadow: 0 5px 50px #F3F5FA;
+    //  font-family: 'Roboto', serif;
+    //  font-style: normal;
+    //  font-weight: 400;
+    //  font-size: 14px;
+    //  line-height: 27px;
+    //  letter-spacing: 0.03em;
+    //  color: #8D96BD;
+    //}
+  }
+
+
+  &__content {
+    width: 333px;
+  }
+
+  &__intro-title {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    margin-bottom: 14px;
+    font-size: $font-xl;
+  }
+
+
+  &__message {
+    background: $white-color;
+    padding: 41px 71px 53px;
+    margin-bottom: 78px;
+    border: 1px solid #D8E3FE;
+
+    position: relative;
+
+    &:before {
+      position: absolute;
+      content: '';
+      background: url("../assets/testimonials-ava.png");
+      width: 62px;
+      height: 62px;
+      right: calc(50% - 31px);
+      bottom: -30px;
+
+    }
+
+
+    &-text {
+      width: 274px;
+      font-size: 14px;
+      line-height: 24px;
+
+    }
+
+  }
+}
+
+
